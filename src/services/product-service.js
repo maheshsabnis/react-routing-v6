@@ -3,7 +3,7 @@ import axios from 'axios';
 class ProductHttpService {
     
     constructor(){
-        this.url = "https://apiapptrainingnewapp.azurewebsites.net";
+        this.url = "[YOUR-REST-API-URL-HERE]";
     }
 
     async getData() {
